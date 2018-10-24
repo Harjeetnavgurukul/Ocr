@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".OcrActivity">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
+        android:layout_marginTop="450dp"
+        android:background="#cadce0"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_photo_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Compile"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:background="#cadce0"
+        android:layout_below="@id/button"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button1"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display OCR Data"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200sp"
+        android:textStyle="italic"
+        android:id="@+id/text"
+        />
+
+
+</RelativeLayout>
